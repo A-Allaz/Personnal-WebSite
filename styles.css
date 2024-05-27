@@ -29,6 +29,7 @@ body{
             background-color: rgb(84, 136, 136);
             color: black;
             border-style: none;
+            font-weight: bolder;
         }
     }
 }
@@ -43,4 +44,9 @@ body{
 
     background-color: white;
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+    .title{
+        padding-left: 5%;
+    }
 }
