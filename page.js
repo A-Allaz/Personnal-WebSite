@@ -31,8 +31,27 @@ document.addEventListener("DOMContentLoaded", function() {
         content.empty();
 
         var html = `
-        <h1 class="title">Lutherie</h1>`
-        ;
+        <h1 class="title">Lutherie</h1>
+        `;
+
+        content.append(html);
+    });
+    
+    //Photographie
+    $('#photo').click(function () {
+        var content = $('#content');
+        content.empty();
+
+        var html = `
+        <h1 class="title">Photographie</h1>
+        <br/>
+        <div class="photoDiv" style="left: 0%">
+            <center>
+                <img src="./images/photographie/DSCF2544.jpg">
+                <figcaption>Puffins</figcaption>
+            </center>
+        </div>
+        `;
 
         content.append(html);
     });
@@ -43,8 +62,8 @@ document.addEventListener("DOMContentLoaded", function() {
         content.empty();
 
         var html = `
-        <h1 class="title">Musique</h1>`
-        ;
+        <h1 class="title">Musique</h1>
+        `;
 
         content.append(html);
     });
@@ -55,8 +74,8 @@ document.addEventListener("DOMContentLoaded", function() {
         content.empty();
 
         var html = `
-        <h1 class="title">Code / Informatique</h1>`
-        ;
+        <h1 class="title">Code / Informatique</h1>
+        `;
 
         content.append(html);
     });
