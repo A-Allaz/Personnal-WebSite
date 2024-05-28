@@ -55,11 +55,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
         var html = `
         <h1 class="title">Photographie</h1>
-        <br/>
         <div class="photoDiv">
             <img src="./images/photographie/Puffins_1.jpg">
             <center>
                 <figcaption>Puffins</figcaption>
+            </center>
+        </div>
+        <div class="photoDiv">
+            <img src="./images/photographie/Circumpolaire_1.jpg">
+            <center>
+                <figcaption>Circumpolaire</figcaption>
             </center>
         </div>
         `;
