@@ -13,6 +13,17 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
+    $('#accueil').click(function () {
+        var content = $('#content');
+        content.empty();
+
+        var html = `
+        <h1 class="title">Accueil</h1>
+        `;
+
+        content.append(html);
+    });
+
     //Contact
     var contact = document.querySelector('.contactButton');
 
@@ -45,9 +56,9 @@ document.addEventListener("DOMContentLoaded", function() {
         var html = `
         <h1 class="title">Photographie</h1>
         <br/>
-        <div class="photoDiv" style="left: 0%">
+        <div class="photoDiv">
+            <img src="./images/photographie/Puffins_1.jpg">
             <center>
-                <img src="./images/photographie/Puffins_1.jpg">
                 <figcaption>Puffins</figcaption>
             </center>
         </div>
