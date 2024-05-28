@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
         <br/>
         <div class="photoDiv" style="left: 0%">
             <center>
-                <img src="./images/photographie/DSCF2544.jpg">
+                <img src="./images/photographie/Puffins_1.jpg">
                 <figcaption>Puffins</figcaption>
             </center>
         </div>
