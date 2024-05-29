@@ -56,15 +56,15 @@ document.addEventListener("DOMContentLoaded", function() {
         var html = `
         <h1 class="title">Photographie</h1>
         <div class="photoDiv">
-            <img src="./images/photographie/Puffins_1.jpg">
+            <img src="./images/photographie/Puffins_1.jpg" id="puffins" onclick="puffinClicked()">
             <center>
                 <figcaption>Puffins</figcaption>
             </center>
         </div>
         <div class="photoDiv">
-            <img src="./images/photographie/Circumpolaire_1.jpg">
+            <img src="./images/photographie/Circumpolaire_1.jpg" id="astro">
             <center>
-                <figcaption>Circumpolaire</figcaption>
+                <figcaption>Astro-photographie</figcaption>
             </center>
         </div>
         `;
@@ -115,3 +115,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     
 });
+
+function puffinClicked(){
+    window.location.replace('puffins.html');
+};
